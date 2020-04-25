@@ -15,6 +15,7 @@ public class LeaderInAnArray {
 
 		while (testCases-- > 0) {
 			
+			//Hidden 
 			int size = Integer.parseInt(reader.readLine());
 			String[] elements = reader.readLine().split(" ");
 			int maxElement = Integer.parseInt(elements[size - 1]);
